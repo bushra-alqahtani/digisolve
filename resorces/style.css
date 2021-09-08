@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    color: black;
+    text-rendering: optimizeLegibility;
+    font-family: 'Raleway', sans-serif;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+header {
+    background-image: url(img/book.jpg);
+}

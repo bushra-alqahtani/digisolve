@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: white;
+    color: black;
+    text-rendering: optimizeLegibility;
+    font-family: 'Raleway', 'sans-serif','work sans';
+    font-size: 16px;
+    font-weight: 300;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.568),rgba(0, 0, 0, 0.589)), url(img/book.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.header-box{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align:center ;
+}
+h1{
+font-size: 500%;
+color: white;
+font-weight: 400;
+margin-bottom: 20px;
+text-align: center;
+
+}
+h2{
+    font-size: 200%;
+    color: white;
+    font-weight: 400;
+}
+.header-box-text {
+margin-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bnt:link,
+.btn:visited{
+    text-decoration: none;
+   
+    
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: lightcoral;
+    color:white;
+    padding: 10px 30px;
+    border-radius: 200px;
+}
+.btn-full:hover,
+.btn-full:active{
+    background-color: lightsalmon;
+}
+
